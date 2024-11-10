@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    font-family: "Playfair Display", "Georgia", "Times New Roman", serif ;
+    font-size: 16px;
+    margin:0;
+    padding:0;
+
+}
+h1{
+    font-family: "Bebas Neue", "Garamond", 'Times New Roman', serif;
+    font-size: 36px;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+}
+
+img
+{
+    max-width: 100%;
+    height: auto;
+
+}
+h2,h3{
+    font-family:"Fira Sans", "Georgia", "Helvetica", serif ;
+    font-size: 20px;
+    color: #111;
+
+}
+
+#navigation, header, #history, #general-info
+{
+    background-color:rgba(232, 77, 5, 0.607);
+    box-sizing: content-box;
+    padding:2.5px
+    
+}
+
+#education, #foods, #notable-ivorians, footer
+{
+    background-color:rgba(4, 158, 22, 0.51);
+    box-sizing: content-box;
+    padding: 2.5px;
+    
+}
+#population, #area, #demographics, #economy, #government, #daily-life
+{
+    box-sizing: content-box;
+    margin:0;
+    padding: 0;
+}
+
+#reference
+{
+    font-size: 13px;
+    color: rgb(180, 8, 45);
+}
+a,
+a:link {
+  color:rgb(4, 58, 13)
+}
+
+a:visited{
+  color: #444;
+}
+
+a:hover{
+    color:rgb(64, 7, 60)
+}
+
+a:active{
+    color:rgb(168, 64, 4)
+}
