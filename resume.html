@@ -4,31 +4,38 @@
         <meta charset="utf-8">
         <title> resume </title>
         <script src="https://kit.fontawesome.com/410f26c209.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <header>
-            <nav> <!-- make this horizontal with css later, maybe add box -->
-                <ul>
-                <li><a href="index.html">home</a></li>
-                <li><a href="projects.html">projects</a></li>
-                <li><a href="resume.html">resume</a></li>
-                <li><a href="extras.html">extras</a></li>
-                <li><a href="blog.html">blog</a></li>
+            <nav class="nav-box"> <!-- make this horizontal with css later, maybe add box -->
+                <ul class="nav">
+                    <li><a href="index.html">home <i class="fa-solid fa-house"></i></a></li>
+                    <li><a href="projects.html"> projects <i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="resume.html">resume <i class="fa-solid fa-file"></i></a></li>
+                    <li><a href="extras.html">extras <i class="fa-solid fa-palette"></i></a></li>
+                    <li><a href="blog.html">blog <i class="fa-regular fa-comment"></i></a></li>
                 </ul>
             </nav>
-            <h1> Destiny Attagba's Resume </h1>
+            <h1 class="center-text"> Destiny Attagba's Resume </h1>
         </header>
         <main>
-            <p class="center-text"> Below is my resume, which includes my work experience, student involvement, skills, volunteer experience, 
-                and school information.
-            </p>
+            <h3 class="center-text"> Below is my resume, which includes my work experience, student involvement, skills, volunteer experience, 
+                and school information. </h3>
+            <figure>
+                <img src="images/resume.png" alt="My resume in PNG format."/>
+                <figcaption> Destiny Attagba's resume. </figcaption>
+            </figure>
+            
             <object type="application/pdf" 
             data="/documents/Destiny.Attagba.Resume.pdf" 
              width="100%"height="600px"> <!-- found this trick on the web-->
-            <a href="documents/Destiny.Attagba.Resume.pdf"> download here! </a>
+            <a href="documents/Destiny.Attagba.Resume.pdf"> Download the PDF here! </a>
             </object>
+             
         </main>
     </body>
+
     <footer>
         <p><small> Copyright &copy; 2024 Destiny Attagba. </small></p>
     </footer>

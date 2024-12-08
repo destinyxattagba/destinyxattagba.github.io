@@ -1,0 +1,152 @@
+/* @import url("https://use.typekit.net/fhw7idb.css"); -- add later post-grading */
+/* @import url("https://use.typekit.net/wnq2gkp.css"); -- add later post-grading*/
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Audiowide&family=Geo:ital@0;1&display=swap');
+
+
+header > h1
+{
+    /*font-family: "sofachrome", Garamond, sans-serif, serif;
+    font-style: italic;
+    font-weight :400;*/
+    font-family: "Audiowide", "Garamond", sans-serif,serif;
+    font-style: normal;
+    font-weight: 400;
+    color:#98F257;
+}
+main > h1, h2
+{
+    
+    /*font-family: "video", Garamond, sans-serif, serif;*/
+    /*settings are the same */
+    font-family: "Anta", Garamond, sans-serif, serif;
+    font-style: normal;
+    font-weight: 400;
+    color:#F250D7;
+}
+body
+{
+    background-color:#A60A53;
+}
+
+ul.nav li {
+    display: inline-block; 
+    margin-right: 20px;    
+  }
+  
+  ul.nav li a {
+    color: #F250D7;          
+    padding: 10px 20px;      
+    display: block;
+    font-size: 18px;           
+  }
+ 
+  ul.nav li a:visited {
+    color:#98F257; 
+  }
+    ul.nav li a:hover {
+    background-color:#D90D7D; 
+    color:#924BA6
+  }
+  .nav-box
+  {
+    width: 60%;
+    margin: 0 auto;             
+    padding: 10px;             
+    align-items: center;
+    text-align: center;
+    max-width: 960px;
+
+  }
+main > p, h3, p, ul, table
+{
+    font-family:"Anta", Arial, sans-serif,serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#000;
+}
+
+table,th,td
+{
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    border:1px solid #924BA6;
+    padding: 5px ;
+    
+}
+figcaption
+{
+    text-align: center;
+    font-family: "video", Arial, sans-serif,serif;;
+}
+.center-text
+{
+    text-align: center;
+}
+a,
+a:link{
+  color:#F250D7
+}
+
+a:visited{
+  color:#98F257
+}
+
+a:hover{
+    color:#924BA6
+}
+
+a:active{
+    color:#D90D7D}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Adobe color color swatches*/
+
+/* Color Theme Swatches in Hex */
+.A-vibrant-table-of-retro-items-from-the-y2k-era,-adorned-with-magenta-and-pink-accents,-evoking-feelings-of-nostalgia-and-whimsy,-set-against-a-purple-wall-covered-in-playful-text-1-hex { color: #A60A53; }
+.A-vibrant-table-of-retro-items-from-the-y2k-era,-adorned-with-magenta-and-pink-accents,-evoking-feelings-of-nostalgia-and-whimsy,-set-against-a-purple-wall-covered-in-playful-text-2-hex { color: #D90D7D; }
+.A-vibrant-table-of-retro-items-from-the-y2k-era,-adorned-with-magenta-and-pink-accents,-evoking-feelings-of-nostalgia-and-whimsy,-set-against-a-purple-wall-covered-in-playful-text-3-hex { color: #F250D7; }
+.A-vibrant-table-of-retro-items-from-the-y2k-era,-adorned-with-magenta-and-pink-accents,-evoking-feelings-of-nostalgia-and-whimsy,-set-against-a-purple-wall-covered-in-playful-text-4-hex { color: #924BA6; }
+.A-vibrant-table-of-retro-items-from-the-y2k-era,-adorned-with-magenta-and-pink-accents,-evoking-feelings-of-nostalgia-and-whimsy,-set-against-a-purple-wall-covered-in-playful-text-5-hex { color: #98F257; }
+
+/* Color Theme Swatches in RGBA */
+.A-vibrant-table-of-retro-items-from-the-y2k-era,-adorned-with-magenta-and-pink-accents,-evoking-feelings-of-nostalgia-and-whimsy,-set-against-a-purple-wall-covered-in-playful-text-1-rgba { color: rgba(165, 9, 82, 1); }
+.A-vibrant-table-of-retro-items-from-the-y2k-era,-adorned-with-magenta-and-pink-accents,-evoking-feelings-of-nostalgia-and-whimsy,-set-against-a-purple-wall-covered-in-playful-text-2-rgba { color: rgba(216, 13, 125, 1); }
+.A-vibrant-table-of-retro-items-from-the-y2k-era,-adorned-with-magenta-and-pink-accents,-evoking-feelings-of-nostalgia-and-whimsy,-set-against-a-purple-wall-covered-in-playful-text-3-rgba { color: rgba(242, 79, 215, 1); }
+.A-vibrant-table-of-retro-items-from-the-y2k-era,-adorned-with-magenta-and-pink-accents,-evoking-feelings-of-nostalgia-and-whimsy,-set-against-a-purple-wall-covered-in-playful-text-4-rgba { color: rgba(145, 74, 165, 1); }
+.A-vibrant-table-of-retro-items-from-the-y2k-era,-adorned-with-magenta-and-pink-accents,-evoking-feelings-of-nostalgia-and-whimsy,-set-against-a-purple-wall-covered-in-playful-text-5-rgba { color: rgba(151, 242, 87, 1); }
+
+/* Color Theme Swatches in HSLA */
+.A-vibrant-table-of-retro-items-from-the-y2k-era,-adorned-with-magenta-and-pink-accents,-evoking-feelings-of-nostalgia-and-whimsy,-set-against-a-purple-wall-covered-in-playful-text-1-hsla { color: hsla(331, 88, 34, 1); }
+.A-vibrant-table-of-retro-items-from-the-y2k-era,-adorned-with-magenta-and-pink-accents,-evoking-feelings-of-nostalgia-and-whimsy,-set-against-a-purple-wall-covered-in-playful-text-2-hsla { color: hsla(326, 88, 45, 1); }
+.A-vibrant-table-of-retro-items-from-the-y2k-era,-adorned-with-magenta-and-pink-accents,-evoking-feelings-of-nostalgia-and-whimsy,-set-against-a-purple-wall-covered-in-playful-text-3-hsla { color: hsla(309, 86, 63, 1); }
+.A-vibrant-table-of-retro-items-from-the-y2k-era,-adorned-with-magenta-and-pink-accents,-evoking-feelings-of-nostalgia-and-whimsy,-set-against-a-purple-wall-covered-in-playful-text-4-hsla { color: hsla(286, 37, 47, 1); }
+.A-vibrant-table-of-retro-items-from-the-y2k-era,-adorned-with-magenta-and-pink-accents,-evoking-feelings-of-nostalgia-and-whimsy,-set-against-a-purple-wall-covered-in-playful-text-5-hsla { color: hsla(95, 85, 64, 1); }

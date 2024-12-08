@@ -4,28 +4,29 @@
         <meta charset="utf-8">
         <title>projects</title>
         <script src="https://kit.fontawesome.com/410f26c209.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <header>
             
-            <nav> <!-- make this horizontal with css later, maybe add box -->
-                <ul>
-                <li><a href="index.html">home</a></li>
-                <li><a href="projects.html">projects</a></li>
-                <li><a href="resume.html">resume</a></li>
-                <li><a href="extras.html">extras</a></li>
-                <li><a href="blog.html">blog</a></li>
+            <nav class="nav-box"> <!-- make this horizontal with css later, maybe add box -->
+                <ul class="nav">
+                    <li><a href="index.html">home <i class="fa-solid fa-house"></i></a></li>
+                    <li><a href="projects.html"> projects <i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="resume.html">resume <i class="fa-solid fa-file"></i></a></li>
+                    <li><a href="extras.html">extras <i class="fa-solid fa-palette"></i></a></li>
+                    <li><a href="blog.html">blog <i class="fa-regular fa-comment"></i></a></li>
                 </ul>
             </nav>
-            <h1>coding projects</h1>
+            <h1 class="center-text">coding projects</h1>
         </header>
         <main>
-            <p class="center-text">On this page, I'll tell you a bit about the personal coding projects that I'm working on for fun. Each section will have a summary of
-            what the project is, and a table of its completion status, which skills were used, and a link to more information if applicable </p>
+            <h3 class="center-text">On this page, I'll tell you a bit about the personal coding projects that I'm working on for fun. Each section will have a summary of
+            what the project is, and a table of its completion status, which skills were used, and a link to more information if applicable </h3>
             <section id="drink-thermometer" class="coding-projects">
                 <h2> Drink Thermometer with LED </h2>
                 <figure>
-                    <img src="images/" alt="A picture of the thermometer"/>
+                    <img src="images/cup-project.jpeg" alt="A picture of the thermometer"/>
                     <figcaption> Thermometer on "just right" setting. </figcaption>
                 </figure>>
                 <p>This semester, I was lucky enough to take a class called Physical Computing, where I was able to use Python, Circuitpython, 
@@ -49,7 +50,7 @@
             <section id="record-player-audio-movie" class="coding-projects">
                 <h2> Record Player Replica & Audio Movie </h2>
                 <figure>
-                    <img src="images/" alt="A picture of the thermometer"/>
+                    <img src="images/record-player-3d-print.png" alt="A picture of the thermometer"/>
                     <figcaption> 3D Printed Record Player Replica </figcaption>
                 </figure>>
                 <p>In my Physical Computing class, I had the creative freedom to execute an Idea that interested me for our final project.
@@ -71,7 +72,7 @@
                 
 
             </section>
-            <section id="spotify-for-guests" class="coding-projects">
+           <!-- <section id="spotify-for-guests" class="coding-projects">
                 <h2> Simple Website that uses Spotify's API </h2>
                 <figure>
                     <img src="images/" alt="A screenshot of the site"/>
@@ -94,7 +95,7 @@
                         <td> <a href="https://github.com/destinyxattagba/spotifyForGuests">Github Repository</a></td>
                     </tr>
                 </table>
-            </section>
+            </section>-->
         </main>
 
     </body>
