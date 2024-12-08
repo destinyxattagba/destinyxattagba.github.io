@@ -2,6 +2,7 @@
 /* @import url("https://use.typekit.net/wnq2gkp.css"); -- add later post-grading*/
 @import url('https://fonts.googleapis.com/css2?family=Anta&family=Audiowide&family=Geo:ital@0;1&display=swap');
 
+/*header and body code*/
 
 header > h1
 {
@@ -27,6 +28,8 @@ body
 {
     background-color:#A60A53;
 }
+
+/* navigation designing*/
 
 ul.nav li {
     display: inline-block; 
@@ -57,6 +60,9 @@ ul.nav li {
     max-width: 960px;
 
   }
+
+/*general body */
+
 main > p, h3, p, ul, table
 {
     font-family:"Anta", Arial, sans-serif,serif;
@@ -65,6 +71,9 @@ main > p, h3, p, ul, table
     color:#000;
 }
 
+main{
+    margin:15px;
+}
 table,th,td
 {
     text-align: center;
@@ -77,12 +86,39 @@ table,th,td
 figcaption
 {
     text-align: center;
-    font-family: "video", Arial, sans-serif,serif;;
+    font-family: "Anta", Arial, sans-serif,serif;;
 }
 .center-text
 {
     text-align: center;
 }
+img,iframe
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#grid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    grid-template-areas: "drink-thermometer record-player-audio-movie";
+}
+#drink-thermometer{
+    grid-area: drink-thermometer;
+    border: 1px solid #924BA6;
+    padding: 15px;
+    margin:20px;
+}
+#record-player-audio-movie{
+        grid-area: record-player-audio-movie;
+        border: 1px solid #924BA6;
+        padding : 15px;
+        margin:20px;
+}
+/* general links*/
 a,
 a:link{
   color:#F250D7

@@ -1,0 +1,12 @@
+@media (max-width: 400px) {
+
+	body {
+	  grid-template-columns: 1fr;
+	  grid-template-areas: "body"
+	}
+
+  main {
+		display: block;
+	}
+
+}
