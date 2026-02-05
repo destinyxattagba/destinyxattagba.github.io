@@ -1,33 +1,40 @@
-/* @import url("https://use.typekit.net/fhw7idb.css"); -- add later post-grading */
-/* @import url("https://use.typekit.net/wnq2gkp.css"); -- add later post-grading*/
+
 @import url('https://fonts.googleapis.com/css2?family=Anta&family=Audiowide&family=Geo:ital@0;1&display=swap');
 
 /*header and body code*/
+header{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+html{
+  scroll-behavior: smooth;
+}
 
 header > h1
 {
-    /*font-family: "sofachrome", Garamond, sans-serif, serif;
-    font-style: italic;
-    font-weight :400;*/
     font-family: "Audiowide", "Garamond", sans-serif,serif;
     font-style: normal;
     font-weight: 400;
-    color:#98F257;
+    color:#0d0d0d;
 }
 main > h1, h2
 {
-    
-    /*font-family: "video", Garamond, sans-serif, serif;*/
-    /*settings are the same */
+
     font-family: "Anta", Garamond, sans-serif, serif;
     font-style: normal;
     font-weight: 400;
-    color:#F250D7;
+    color:#0d0d0d;
 }
-body
-{
-    background-color:#A60A53;
-}
+
 
 /* navigation designing*/
 
@@ -37,43 +44,67 @@ ul.nav li {
   }
   
   ul.nav li a {
-    color: #F250D7;          
+    color: #0d0d0d;          
     padding: 10px 20px;      
     display: block;
     font-size: 18px;           
   }
  
   ul.nav li a:visited {
-    color:#98F257; 
+    color:#8c8c8c; 
   }
     ul.nav li a:hover {
-    background-color:#D90D7D; 
-    color:#924BA6
+    background-color:#404040; 
+    color:#fefcfc
   }
   .nav-box
   {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;             
-    padding: 10px;             
+    padding: 10px;       
+    justify-content: center;      
     align-items: center;
     text-align: center;
     max-width: 960px;
+    flex-wrap: nowrap;
 
   }
 
-/*general body */
 
-main > p, h3, p, ul, table
+/*general body */
+#hero h1{
+font-family: "Audiowide", "Garamond", sans-serif, serif;
+font-weight: 400;
+}
+.hero-logo{
+  display: flex;
+  align-items:center;
+  gap:5px;
+}
+
+.hero-logo h1{
+  margin:0;
+}
+
+.name-icon{
+  width:140px;
+  height:auto;
+}
+
+main > p, h3, p, ul, table, span, h4
 {
     font-family:"Anta", Arial, sans-serif,serif;
     font-weight: 400;
     font-style: normal;
-    color:#000;
+    /*color:#000;*/
 }
 
-main{
-    margin:15px;
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
+
 table,th,td
 {
     text-align: center;
@@ -92,48 +123,169 @@ figcaption
 {
     text-align: center;
 }
-img,iframe
+
+.technical-stack-grid, .learning-stack-grid{
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px 10px;
+}
+.stack-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.stack-item > i{
+  font-size: 5em;
+  color: #404040;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+.stack-item:hover i{
+  transform:scale(1.1);
+  color: #0d0d0d;
+}
+
+.stack-item .level{
+  font-size:0.85rem;
+  opacity:0;
+  transform: translateY(-5.5px);
+  transition:opacity 0.2s ease, transform 0.2s ease;
+}
+
+.stack-item:hover .level{
+  opacity:1;
+  transform:translateY(0)
+}
+
+.card .level{
+  font-size:0.85rem;
+  opacity:0;
+  transform: translateY(-5.5px);
+  transition:opacity 0.2s ease, transform 0.2s ease;
+}
+
+.card:hover .level{
+  opacity:1;
+  transform:translateY(0)
+}
+
+.other-skills{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px 10px;
+  border: #404040;
+}
+/* img,iframe
 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+} */
+
+section{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2rem;
+  /* max-width:1100px; */
+  margin: 0 auto;
 }
-#grid
-{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 15px;
-    grid-template-areas: "drink-thermometer record-player-audio-movie";
+
+.about-me-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
 }
-#drink-thermometer{
-    grid-area: drink-thermometer;
-    border: 1px solid #924BA6;
-    padding: 15px;
-    margin:20px;
+
+.text-wrapper{
+  flex: 1;
+  max-width: 65%;
 }
-#record-player-audio-movie{
-        grid-area: record-player-audio-movie;
-        border: 1px solid #924BA6;
-        padding : 15px;
-        margin:20px;
+
+.image-wrapper{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  padding-right: 60px;
 }
+.extra-content{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+section > h3, h4, p{
+  padding: 15px;
+  margin: 10px;
+}
+#hero, #stack, #extras{
+  background-color: #fefcfc;
+  color: #404040;
+}
+
+#about-me, #projects, #contact >h2, #contact,
+#about-me >h2, #projects>h2{
+  background-color: #0d0d0d;
+  background-size: cover;
+  color: #f2f2f2;
+}
+
+.card-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.card{
+  width: 325px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow:0px 2px 4px #8c8c8c;
+  margin: 20px;
+}
+
+.card > #projects{
+  width: 325px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow:0px 2px 4px #fefcfc;
+  margin: 20px;
+}
+
+
+.card img{
+  width: 100%;
+  height: auto;
+}
+
+
 /* general links*/
 a,
 a:link{
-  color:#F250D7
+  color:#404040
 }
 
 a:visited{
-  color:#98F257
+  color:#fefcfc
 }
 
 a:hover{
-    color:#924BA6
+    color:#8c8c8c
 }
 
 a:active{
-    color:#D90D7D}
+    color:#0d0d0d}
+
+#contact a:link{
+  color: #f2f2f2;
+}
+#contact a:hover{
+  color:#8c8c8c;
+}
 
 
 

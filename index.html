@@ -2,52 +2,270 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title> Destiny Attagba's Portfolio </title>
+    <title> Meet Destiny Attagba </title>
     <meta name="viewport" content="width=device-width; initial-scale=1;" />
     <script src="https://kit.fontawesome.com/410f26c209.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     <link href="css/mobile.css" media="screen" rel="stylesheet" />
 
 </head>
 
 <body>
 <header>
-
-<nav class="nav-box"> <!-- make this horizontal with css later, maybe add box -->
+    <div id="hero" class="hero-logo">
+        <img src="images/left-star.svg" alt="" class="name-icon"/>
+        <h1 class="center-text"> destiny attagba </h1>
+    </div>
+    <h3 class="center-text"> tech-centered creative // aspiring front end engineer // knowledge-seeker</h3>
+    <nav class="nav-box"> <!-- make this horizontal with css later, maybe add box -->
         <ul class="nav">
-            <li><a href="index.html">home <i class="fa-solid fa-house"></i></a></li>
-            <li><a href="projects.html"> projects <i class="fa-brands fa-github"></i></a></li>
-            <li><a href="resume.html">resume <i class="fa-solid fa-file"></i></a></li>
-            <li><a href="extras.html">extras <i class="fa-solid fa-palette"></i></a></li>
-            <li><a href="blog.html">blog <i class="fa-regular fa-comment"></i></a></li>
+            <li><a href="#about-me">about me<i class="fa-solid fa-house"></i></a></li>
+            <li><a href="#stack">stack<i class="fa-brands fa-github"></i></a></li>
+            <li><a href="#projects"> projects + experience <i class="fa-solid fa-file"></i></a></li>
+            <li><a href="#extras">extras<i class="fa-solid fa-palette"></i></a></li>
+            <li><a href="#contact">connect with me<i class="fa-regular fa-comment"></i></a></li>
         </ul>
   </nav>
-  <h1 class="center-text"> greetings, from Destiny Attagba!</h1>
 </header>
-<main>
-    <h1 class="center-text"> Destiny Attagba</h1>
-    <figure>
-        <img src="images/destiny-attagba.jpeg" alt="A picture of Destiny Attagba"/>
-        <figcaption> Destiny Attagba </figcaption>
-    </figure>>
-<h2 class="center-text"> about me! </h2>
-<p> My name is Destiny Attagba, and I'm a Computer Science and French double major
-    at the University of Miami, minoring in Film and considering a second minor in 
-    interactive media. I'm interested in web design and wanted to learn HTML, CSS, and JavaScript to express my creative
-    side while still being able to code. Some of the coding languages that I know include Python and Java, although I'm currently trying to learn
-    C# with Unity development at the moment. Some of my other interests in the CS world also include
-    Augmented Reality / Virtual Reality, creative software engineering, medical research and
-    possibly game development.
-</p>
 
-<h3>hobbies</h3>
-    <ul>
-        <li>listening to music</li>
-        <li>directing + writing</li>
-        <li>watching and analyzing movies</li>
-    </ul>
-    <p>fun fact: I'm studying abroad in Paris for 6 months in 2025. </p>
+<main>
+    
+
+<section id="about-me">
+    <h2 class="left-text">ABOUT ME</h2>
+    <div class="about-me-container">
+    <div class="text-wrapper">
+    <p> My name is Destiny Attagba, and I'm a Computer Science and French double major
+        at the University of Miami. I'm interested in web design and front-end development and took up learning HTML, CSS, and JavaScript to express my creative
+        side while still being able to code.  Ultimately, I'd like to learn more backend skills to do full-stack development. Some of my other interests in the CS world also include
+         virtual reality, general research, and mobile app development.With French, I'm currently at the Intermediate level, speaking at a B1.2 proficiency. When I'm not learning, I enjoy djing, watching movies, directing creative projects, trying new foods, and meeting new people. Feel free to explore my website and learn more about me!
+    </p></div>
+<div class="image-wrapper">
+    <img src="images/headshot.jpg" alt="a headshot of Destiny Attagba" width="270px" height="400px">
+</div>
+</div>
+</section>
+
+<section id="stack">
+    <h2 class="left-text">TECH STACK</h2>
+
+    <div class="technical-stack-grid">
+        <div class="stack-item">
+            <i class="devicon-java-plain advanced"></i>
+            <span>java</span>
+            <span class="level"> advanced </span>
+        </div>
+
+        <div class="stack-item advanced">
+            <i class="devicon-python-plain"></i>
+            <span>python</span>
+            <span class="level"> advanced </span>
+        </div>
+        
+        <div class="stack-item intermediate">
+            <i class="devicon-c-original"></i>
+            <span>C</span>
+            <span class="level"> intermediate</span>
+        </div>
+
+        <div class="stack-item intermediate">
+            <i class="devicon-bash-plain"></i>
+            <span>bash</span>
+            <span class="level"> intermediate </span>
+        </div>
+
+        <div class="stack-item advanced">
+            <i class="devicon-html5-plain"></i>
+            <span>html5</span>
+            <span class="level"> advanced </span>
+        </div>
+
+        <div class="stack-item intermediate">
+            <i class="devicon-css3-plain"></i>
+            <span>css</span>
+            <span class="level"> intermediate </span>
+        </div>
+
+        <div class="stack-item beginner">
+            <i class="devicon-unity-line"></i>
+            <span>unity engine</span>
+            <span class="level"> beginner</span>
+        </div>
+        <div class="stack-item">
+            <i class="devicon-flask-original intermediate"></i>
+            <span>flask</span>
+            <span class="level"> intermediate </span>
+        </div>
+        <div class="stack-item advanced">
+            <i class="devicon-git-plain"></i>
+            <span>git</span>
+            <span class="level"> advanced </span>
+        </div>
+
+        <div class="stack-item learning">
+            <i class="devicon-react-original"></i> 
+            <span>react</span>
+            <span class="level"> currently learning </span>
+        </div>
+
+        <div class="stack-item learning">
+            <i class="devicon-javascript-plain"></i> 
+            <span>javascript</span>
+            <span class="level"> currently learning</span>
+        </div>
+
+        <div class="stack-item learning">
+            <i class="devicon-azuresqldatabase-plain"></i> 
+            <span>sql</span>
+            <span class="level"> currently learning </span>
+        </div>
+
+        <div class="stack-item learning">
+            <i class="devicon-tailwindcss-original"></i> 
+            <span>tailwindcss</span>
+            <span class="level"> currently learning </span>
+        </div>
+
+        <div class="stack-item learning">
+            <i class="devicon-amazonwebservices-plain-wordmark"></i> 
+            <span>aws</span>
+            <span class="level"> currently learning </span>
+        </div>
+
+    </div>
+
+<h3> other skills:</h3>
+
+<div class="other-skills">
+    
+        <div class="stack-item advanced">
+            <i class="devicon-canva-original"></i> 
+            <span>canva</span>
+            <span class="level"> advanced </span>
+        </div>
+
+        <div class="stack-item advanced">
+           <i class="devicon-illustrator-plain"></i> 
+            <span>adobe illustrator</span>
+            <span class="level"> advanced </span>
+        </div>
+
+
+        <div class="stack-item  advanced">
+            <i class="devicon-premierepro-plain"></i> 
+            <span>adobe premiere pro</span>
+            <span class="level"> advanced </span>
+        </div>
+
+
+</div>
+    
+
+</section>
+
+<section id="projects" class="general-container">
+    <h2 class="left-text">PROJECTS</h2>
+    <div class="extra-content"> 
+    <div class="card">
+        <figure>
+            <img src="images/spotipy-recommendations.png" alt="Screenshot of CLI">
+            <figcaption class="level">A screenshot of the CLI for my simple recommendation app</figcaption>
+        </figure>
+            <div class="card-content">
+            <h4> Spotify Recommender Using Spotipy</h4>
+            <p id="description">This project is a small python program that takes a user-entered song and suggests similar tracks by the same artist.
+It uses the Spotify Web API and Spotipy library to authenticate, search for a track, and generate recommendations.
+My goal was to learn API usage, authentication, and practice data parsing in Python. Check it out <a href="https://github.com/destinyxattagba/spotify-recommendations">here</a> </p>
+        </div>
+    </div>
+
+    <div class="card">
+        <figure>
+            <img src="" alt="Screenshot frontend prototype">
+            <figcaption class="level">A screenshot of the landing page of my React prototype</figcaption>
+        </figure>
+            <div class="card-content">
+            <h4> In progress: Spotify Recommender Prototype Using React</h4>
+            <p id="description">This project will be a a mini web app prototype built with React and Vite that
+                 demonstrates how a simple command-line Spotify recommendation tool can be converted into an 
+                 interactive web interface. Users can input a song or favorite artist, and the app
+                  dynamically generates a list of recommended songs based on predefined logic. Check it out <a href="https://github.com/destinyxattagba/react-cli-interface">here.</a></p>
+        </div>
+    </div>
+    </div>
+
+
+</section>
+
+
+<section id="extras" class="general-container">
+    <h2 class="left-text">EXTRAS</h2>
+    <div class="extra-content"> 
+    <div class="card">
+        <figure>
+            <img src="images/plead-the-.45th.png" alt="Cover for plead the .45th video">
+            <figcaption class="level">A thumbnail for my animated music video using the song plead the .45th</figcaption>
+        </figure>
+            <div class="card-content">
+            <h4> Plead the .45th - Animated Music Video</h4>
+            <p id="description">This project is an animated music video / lyric video to <em>Plead the .45th</em> by Smino and Saba, for the soundtrack of the movie Judas
+            and the Black Messiah. In Spring 2024, I took an introductory class in 2D animation where I learned the principles of animating, elements of storytelling
+            and how to create simple animations using Adobe AfterEffects and Adobe Premiere. This video was produced for my final project in the class and combined my 
+            interests of music and film directing. Watch <a href="https://youtu.be/gx8w1mM706Q?si=nmCTQ_-GCED25lb_">here</a>  </p>
+        </div>
+    </div>
+    <div class="card">
+            <figure>
+                <img src="images/oscillation-flyer.png" alt="A flyer for Oscillation.fm" />
+                <figcaption class="level"> A flyer for the specialty show Oscillation.FM, a show exclusively played on WVUM 90.5</figcaption>
+            </figure>
+            <div class="card-content">
+            <h4> Oscillation FM - Weekly Radio Show</h4>
+             <p> This project / side hobby formed after I got involved with my school's radio station, WVUM. From there, Oscillation was born. Oscillation is a celebration of historically marginalized
+                artists who've contributed insurmountable influence to modern day music, primarily through soul, r&b, and hip-hop. These genres and their respective
+                subgenres are underlying themes in all modern popular music, so I use oscillation as a way to pay homage to these genres and play lesser known artists.
+                 Want to listen? Check out my show on every other Monday from 7-8 <a href="https://www.wvum.org/listen">listen here!</a>!</p>
+            </div>
+             </div>
+
+    <div class="card">
+            <figure>
+                <img src="images/bcc-eboard.jpg" alt="A picture of Black Creatives Collectives' 2023-2024 Executive Board" />
+                <figcaption class="level"> A picture of Black Creatives Collectives' 2023-2024 Executive Board</figcaption>
+            </figure>
+            <div class="card-content">
+                <h4> Black Creatives Collective - Executive Board</h4>
+                <p> Since Fall 2022, I've been a member of Black Creatives Collective, an organization dedicated to supporting the black creative community
+                at University of Miami at fostering collaboration. I now serve on the executive board as Event Coordinator.  </p>
+            </div>
+            
+    </div>
+    <div class="card">
+        <figure>
+            <img src="images/record-player-3d-print.png" alt="A picture of the 3D printed record player CAD design"/>
+            <figcaption class="level">"A picture of the 3D printed record player CAD Design</figcaption>
+        </figure>
+        <div class="card-content">
+                <h4> Record Player Replica & Audio Movie </h24>
+                <p>In my Physical Computing class, I had the creative freedom to execute an Idea that interested me for our final project.
+                    I decided to create a replica of a record player that detected the color of "vinyls" (replicas) and played specific mp3 files, telling a story.
+                    I told a short story of black hair and the black experience using pop culture clips, interviews, and news recordings. 
+                </p>
+        </div>
+    </div>
+
+
+</section>
+
+<section id="contact" class="general-container">
+    <h2 class="left-text">CONTACT</h2> 
+    <p><a href="mailto:destinyattagba13@yahoo.com">email: destinyattagba13@yahoo.com</a></p>
+    <p><i class="devicon-linkedin-plain"></i><a href="https://linkedin.com/in/destinyattagba">linkedin: destinyattagba</a></p>
+    <p><i class="devicon-github-original"></i><a href="https://github.com/destinyxattagba">github: destinyxattagba</a></p>
+</section>
 </main>
+
 <footer>
     <p><small> Copyright &copy; 2024 Destiny Attagba. </small></p>
 </footer>
