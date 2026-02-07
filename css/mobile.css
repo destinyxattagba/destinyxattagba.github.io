@@ -1,12 +1,107 @@
-@media (max-width: 400px) {
+/* =========================
+   MOBILE STYLES — iPhone
+   ========================= */
+@media (max-width: 480px) {
 
-	body {
-	  grid-template-columns: 1fr;
-	  grid-template-areas: "body"
-	}
+  /* ---- GLOBAL ---- */
+  section {
+    min-height: auto;
+    padding: 1.5rem 1rem;
+  }
 
-  main {
-		display: block;
-	}
+  h1 {
+    font-size: 1.8rem;
+  }
 
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+
+  /* ---- HERO ---- */
+  .hero-logo {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .name-icon {
+    width: 90px;
+  }
+
+  /* ---- NAVIGATION ---- */
+  .nav-box {
+    width: 100%;
+  }
+
+  ul.nav {
+    padding: 0;
+  }
+
+  ul.nav li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  ul.nav li a {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  /* ---- ABOUT ME ---- */
+  .about-me-container {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .text-wrapper {
+    max-width: 100%;
+  }
+
+  .image-wrapper {
+    padding-right: 0;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .image-wrapper img {
+    width: 70%;
+    height: auto;
+  }
+
+  /* ---- TECH STACK ---- */
+  .technical-stack-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .other-skills {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .stack-item > i {
+    font-size: 3.5em;
+  }
+
+  /* ---- PROJECTS / EXTRAS ---- */
+  .extra-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    margin: 15px 0;
+  }
+
+  /* ---- CONTACT ---- */
+  #contact p {
+    text-align: center;
+    padding: 8px;
+  }
+
+  footer p {
+    text-align: center;
+  }
 }
